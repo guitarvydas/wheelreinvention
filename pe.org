@@ -1,0 +1,32 @@
+* diagram editor
+* text snippet editor
+* transpilers
+* notations
+** grammar
+** rewrite
+* normalized form
+* toolbox
+* interpreter
+* REPL
+* support code server
+* paradigms
+* compiler
+** unoptimized intermediate representation
+** optimizer
+** final intermediate representation
+** emitter
+* runtime
+** Docker
+** Raspberry PI (et al)
+** Windows (POSIX?)
+** Linux (POSIX?)
+** MacOSX
+** node.js
+** HTML   
+** bare metal
+
+
+  
+
+
+
