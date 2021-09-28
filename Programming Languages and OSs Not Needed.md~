@@ -1,0 +1,72 @@
+---
+layout: post
+title:  "We Don't Need Programming Languages Nor Operating Systems"
+---
+
+# Programming Languages:
+There are only 2 important things for programming computers:
+
+1.  Getting computers to do what we want (augment human capabilities with machinery).
+
+2. Paradigms.
+
+Programming Languages fall in between 1 & 2.
+
+One can do away with programming languages and replace them with simpler "notatoins" using Ohm-JS (PEG).  
+
+I think of notations as very simple DSLs.  
+
+It should take only 10's of minutes to produce a notation. 
+
+Notations can be tuned to a particular problem (like Physicists do). 
+
+Multiple Notations can be used on a single problem. 
+
+Notations can be transpiled into other languages (I call them Toolbox Languages), like Python, JavaScript, Common Lisp, etc. 
+
+Notations are like "new" compilers - instead of compiling to assembler, they compile to Toolbox Languages.
+
+# Operating Systems
+Operating systems are just libraries.  
+
+One feature that OSs provide is multitasking. 
+
+The kind of multitasking they provide is rife with accidental complexity - "we're going to make this square peg fit our notation even if it kills us".  
+
+For example, current OSs provide features to deal with thread safety. 
+
+Thread safety is accidental complexity caused by the use of memory sharing. Memory Sharing is used only due to old-fashioned premature optimization (CPUs and Memory used to be expensive in the 1950's). 
+
+If we build computing devices using many rPIs, each running exactly one program (no Linux), then thread safety becomes a non-issue. Poof.
+
+Another feature that OSs provide is honest-to-goodness big lumps of library code, like file handling. 
+
+That stuff simply can be moved into LEGO(R) components that replace the concept of libraries. 
+
+No OS needed for this, either. 
+
+Poof.
+
+# LEGO(R) Block Software
+
+The keys to making LEGO(R) block software are:
+
+- isolation
+- concurrency.
+
+
+
+# See Also
+
+[Blog](https://guitarvydas.github.io)
+[Table of Contents](https://guitarvydas.github.io/2021/09/21/Table-of-Contents-Sept-17-2021.html)
+[Videos](https://www.youtube.com/channel/UC2bdO9l84VWGlRdeNy5)
+[References](https://guitarvydas.github.io/2021/01/14/References.html)
+
+<script src="https://utteranc.es/client.js" 
+        repo="guitarvydas/guitarvydas.github.io" 
+        issue-term="pathname" 
+        theme="github-light" 
+        crossorigin="anonymous" 
+        async> 
+</script> 
