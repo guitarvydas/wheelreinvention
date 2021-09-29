@@ -1,0 +1,1 @@
+- due to memory sharing - memory sharing is supported only due to the outdated notion that memory is expensive - memory sharing cannot even be done on distributed computers (e.g. many cheap rPis), yet Linux installs support for memory sharing in every usage of Linux - in Copernicus' day this was called an "epicycle"

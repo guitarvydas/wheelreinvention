@@ -1,0 +1,1 @@
+- pub/sub is self-modifying code

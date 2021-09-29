@@ -1,0 +1,1 @@
+- everything is concurrent - input pins and output pins (input API, output API) - timing - REQ/ACK protocol - generally doesn't break when shipped

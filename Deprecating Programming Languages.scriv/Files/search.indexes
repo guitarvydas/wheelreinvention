@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SearchIndexes Version="1.0">
+    <Documents>
+        <Document ID="C080785B-E483-4966-8A6F-5D3456A6EEE7">
+            <Title>Dependencies</Title>
+        </Document>
+        <Document ID="E7B6E84D-8167-43EA-98E1-C97A32E99708">
+            <Title>StateCharts - Control Flow</Title>
+        </Document>
+        <Document ID="B8B6B26C-A526-4FEC-B8C0-37F8762DA836">
+            <Title>Brainstorming, Creativity</Title>
+        </Document>
+        <Document ID="EFB4C36C-E332-4BBC-BA45-A107B23D1C53">
+            <Title>Indirection</Title>
+        </Document>
+        <Document ID="DE78F771-A9E7-4FDB-9F6C-EB374616B35D">
+            <Title>Desktop vs. Mobile</Title>
+        </Document>
+        <Document ID="0A5ADA18-C545-4F37-B695-B705492E8DA1">
+            <Title>Timesharing</Title>
+        </Document>
+        <Document ID="FDFC8816-D9AC-4EED-846E-0469C39292C9">
+            <Title>Patterns</Title>
+        </Document>
+        <Document ID="020FB417-1239-4C43-A75D-C92116626674">
+            <Title>Overview</Title>
+            <Text>I plan to:
+
+	1.	list beneficial concepts that we have discovered through the development of various languages
+	2.	list anti-beneficial concepts that have permeated our programming languages
+	3.	list other technologies
+	4.	suggest new perspectives 
+	5.	suggest little tools based on the above ideas (e.g. replace DLLs with servers, replace GREP with a parsing-grep, replace subroutine libraries with Components, etc.)
+	6.	Build prototypes for the tools suggested in (5) above.
+
+</Text>
+        </Document>
+        <Document ID="5AF7D234-309F-4EA5-B211-8A37B1B3FF7D">
+            <Title>Security</Title>
+            <Text>- left to others</Text>
+        </Document>
+        <Document ID="63FD467C-F3F1-49A8-ADCA-9761BD24F81E">
+            <Title>Describing Computers as Functions</Title>
+        </Document>
+        <Document ID="BACFC175-3F9A-411F-B043-AE33B2111D05">
+            <Title>Introduction</Title>
+            <Text>The concept of programming languages, especially GPLs (General Purpose Languages), should be deprecated.
+
+There is only one thing that matters:
+	1.	controlling machines
+
+We resort to things that we call:
+- paradigms
+- experience.
+
+Programming languages are merely syntactic sugar for the above.
+
+Can we create a toolbox of paradigms, then drape syntactic sugar over them?  
+
+Yes.
+</Text>
+            <Comments>Machines that we call "computers".</Comments>
+        </Document>
+        <Document ID="81E96C61-9141-4675-9B12-EAD34E0BAE9D">
+            <Title>Refactoring Architecture</Title>
+        </Document>
+        <Document ID="3A61119C-9815-48AF-976E-5FD410EB3840">
+            <Title>Raspberry PIs</Title>
+            <Synopsis>- etc. - cheap distributed computing w/o the need for timesharing and memory sharing</Synopsis>
+        </Document>
+        <Document ID="4838A96A-6708-4491-8809-7151CDB07E1F">
+            <Title>OO - Case on Type</Title>
+        </Document>
+        <Document ID="8D31DB82-0CCB-4C81-8912-273466F8A5D2">
+            <Title>Premature Rigor</Title>
+            <Synopsis>- math notation requires throwing away useful bits (mutability, state)</Synopsis>
+        </Document>
+        <Document ID="3B7CD9A0-CC1F-4CEF-BFF3-70A59B19B417">
+            <Title>Avoiding Concurrency</Title>
+        </Document>
+        <Document ID="EFD3DEDD-4CB9-40E2-8982-8D3114DCA408">
+            <Title>Programming Languages</Title>
+        </Document>
+        <Document ID="345B0A17-60B9-455D-A6CB-E5A1B8A7B7A1">
+            <Title>String Gluing and Manipulation</Title>
+        </Document>
+        <Document ID="F8156889-A75E-4B64-993A-C0167F7C5013">
+            <Title>DE (Development Environment)</Title>
+            <Synopsis>- formerly known as IDE</Synopsis>
+        </Document>
+        <Document ID="45BE6421-6701-4F97-BB1A-1BB557EF939A">
+            <Title>Business ORG Charts</Title>
+            <Synopsis>- https://guitarvydas.github.io/2021/09/21/ORG-Chart-Takeaways.html</Synopsis>
+        </Document>
+        <Document ID="32EC4E40-5BC3-4987-A760-815F8A4C2D0C">
+            <Title>Scalability</Title>
+        </Document>
+        <Document ID="711AC12B-BDE0-4449-8EC5-1B888656987A">
+            <Title>odds and ends</Title>
+            <Text>- syntax is cheap, thinking is hard
+- syntax == programming languages (greatly cheapened by PEG technologies)
+- thinking == paradigms
+- continued conflation of the easy parts (syntax) with the hard parts (thinking)
+- continued conflation of control flow with data structuring
+- continued conflation of non-overlapping grids of small bitmaps with programming language design
+- continued insistence on defining programming languages as textual things (think simplistic SVG - rects, ellipse, lines, text)
+
+</Text>
+        </Document>
+        <Document ID="E4FE73BB-3A87-4C89-9754-F8E8D56DE310">
+            <Title>Computers Are Asynchronous</Title>
+        </Document>
+        <Document ID="55FBA2C9-5C8E-47FD-9389-C45E92599F97">
+            <Title>Like</Title>
+            <Synopsis>- like that, except - automated DRY</Synopsis>
+        </Document>
+        <Document ID="3FE683CA-EE1B-4F03-B189-307EC8FE4425">
+            <Title>Thread Safety</Title>
+            <Synopsis>- accidental complexity due to Memory Sharing - (see Memory Sharing)</Synopsis>
+        </Document>
+        <Document ID="50F7D139-C0B9-4553-8276-15C17F40D654">
+            <Title>Ownership</Title>
+            <Synopsis>- was tried in 1960's FBP - GC is better for Architecture - ownership is better only for optimization</Synopsis>
+        </Document>
+        <Document ID="CC868FE7-1A4C-4915-8689-9426E7485F2C">
+            <Title>PEG Parsing</Title>
+        </Document>
+        <Document ID="580BD408-84BD-4FCD-97FC-3071F957F495">
+            <Title>Libraries</Title>
+        </Document>
+        <Document ID="E3790E10-B0F7-45B1-8406-E7C28E5A1DB4">
+            <Title>Separation of Concerns</Title>
+            <Synopsis>- global variables —&gt; scoping - PROLOG engine —&gt; query syntax vs. engine</Synopsis>
+        </Document>
+        <Document ID="A7FF8DE5-1FA5-474D-B8D7-D0C88C1128B2">
+            <Title>One Programming Language to Rule Them All</Title>
+        </Document>
+        <Document ID="D0A6E8A9-0A52-44AA-8B82-A1BAE209FDED">
+            <Title>Relative References</Title>
+        </Document>
+        <Document ID="0313B25F-1839-4EEC-BCAE-498BAB823D61">
+            <Title>Networking in the Small</Title>
+        </Document>
+        <Document ID="4CD00173-7F80-47D1-A4F5-357A5DBC31BA">
+            <Title>Worlds</Title>
+            <Synopsis>- adjunct to Ohm-JS thesis</Synopsis>
+        </Document>
+        <Document ID="7134F878-F1A9-485A-977C-5CF9A8859174">
+            <Title>Immutability</Title>
+        </Document>
+        <Document ID="FDCDC1EF-019F-4003-A3BB-A93C73A64227">
+            <Title>Calculators</Title>
+        </Document>
+        <Document ID="E2074F74-9974-4A60-8A8F-715A3B73AC24">
+            <Title>Dynamic Con...</Title>
+            <Synopsis>- pub/sub is self-modifying code</Synopsis>
+        </Document>
+        <Document ID="78846D44-F3EF-4463-A1EA-38EDFFB00EAB">
+            <Title>Borrowing Processes from Construction</Title>
+        </Document>
+        <Document ID="B9A98BA5-925C-411C-84E3-017F28A321D3">
+            <Title>Multiple Syntaxes</Title>
+        </Document>
+        <Document ID="A4A2E672-5FE9-42D5-8541-24E899217A90">
+            <Title>Sequencing</Title>
+        </Document>
+        <Document ID="F2E5B57E-2EF8-4BEE-86B3-AB7FFE2194C4">
+            <Title>Dynamic vs. Static Types</Title>
+        </Document>
+        <Document ID="77D6F007-E404-4470-B111-11736A93512C">
+            <Title>Memory Sharing</Title>
+        </Document>
+        <Document ID="CDCF7BEE-97DD-4C35-AED0-9AB37859C0F7">
+            <Title>Expanding Variables</Title>
+        </Document>
+        <Document ID="B7BCBC04-9D81-474E-B588-F738A0935A15">
+            <Title>Data Structuring</Title>
+        </Document>
+        <Document ID="0F5F6A19-CD4D-4B1F-90FF-34380EE363FB">
+            <Title>Mathematics is not Programming</Title>
+            <Text>- mathematics can describe some of programming, but not all of programming
+- programming is machine control and sequencing
+- mathematics describes functions - input always leads to output - but programming describes something more (input and no output - see Asynch Thinking)</Text>
+        </Document>
+        <Document ID="BE316161-9942-40B8-8E2C-C85A10E44D38">
+            <Title>TTL Hardware Design</Title>
+            <Synopsis>- everything is concurrent - input pins and output pins (input API, output API) - timing - REQ/ACK protocol - generally doesn't break when shipped</Synopsis>
+        </Document>
+        <Document ID="3C9C1CA0-96B8-4CBD-9ED4-03396E618C64">
+            <Title>Ackley MFM</Title>
+        </Document>
+        <Document ID="DC4AA80F-273A-474C-97B8-3FB4E4264644">
+            <Title>Essential Complexity</Title>
+            <Text>There is no such thing as essential complexity.
+
+There are only problems-to-be-solved.
+
+Problems can be made to seem more complex by choosing poor notations for describing the problems and their solutions.
+
+</Text>
+        </Document>
+        <Document ID="C2D0A39A-F36E-48A3-8413-FBFE554B2435">
+            <Title>DRY</Title>
+        </Document>
+        <Document ID="DBC3CE3E-EDD3-430F-ABFD-1085936B3C77">
+            <Title>Music Notation</Title>
+            <Synopsis>- hard realtime - sequencing - repetition </Synopsis>
+        </Document>
+        <Document ID="CC92685C-C988-4705-B4BE-1021ADF47818">
+            <Title>Premature Optimization</Title>
+        </Document>
+        <Document ID="5E03FFAC-865D-437D-8FA7-0633435877D3">
+            <Title>Framing Software Reuse</Title>
+            <Synopsis>multiple use vs. reuse</Synopsis>
+        </Document>
+        <Document ID="854C5D2C-CEEE-46BC-B585-09CD2EA1A28E">
+            <Title>Computers Are Functions</Title>
+        </Document>
+        <Document ID="880A891F-2AF8-48E0-B362-ABB2C1380B0C">
+            <Title>Mathematical Notation</Title>
+            <Synopsis>1.5D pen-and-paper, not for 2D/3D graphics</Synopsis>
+        </Document>
+        <Document ID="D06702AC-2C7C-434E-B477-85B31E561B0B">
+            <Title>Elephant in the Room</Title>
+            <Text>- isolation obviates most epicycles we have invented
+- isolation solves dependency problems - they can't happen, except via mailboxes, no memory sharing
+
+- FP provides pseudo-isolation by prohibiting mutability
+- UNIX essentially produced concurrent sandboxes for every command, nothing in the command code could affect other commands (assisted by hardware ; distributed computing (e.g. multiple rPis) results in the same kind of sandboxing)</Text>
+        </Document>
+        <Document ID="0BAB6604-0F15-4B47-8A21-970A5CCA1804">
+            <Title>Desktop vs. Mobile</Title>
+        </Document>
+        <Document ID="54EE138A-B670-4352-A223-32423D1EE103">
+            <Title>Servers</Title>
+        </Document>
+        <Document ID="FBBB4551-D389-4C31-B888-D97E2EFFA605">
+            <Title>Concurrency</Title>
+        </Document>
+        <Document ID="659D218F-4D84-4CE5-A7BA-58CF8425A28C">
+            <Title>CASE on Strings</Title>
+            <Synopsis>- switch/case on arbitrary expressions instead of only on constants - Lisp COND - JS switch</Synopsis>
+        </Document>
+        <Document ID="E8A5603B-ABB6-40D5-A8B4-510C4A289A70">
+            <Title>Programming is not Mathematics</Title>
+            <Text>- parts of programming can be described using mathematical notation
+- but, only parts
+</Text>
+        </Document>
+        <Document ID="49EE0BD4-9EC4-4C95-881D-E472F8D4EF3A">
+            <Title>CASE on Constants</Title>
+            <Synopsis>- borne out of premature optimization</Synopsis>
+        </Document>
+        <Document ID="884FF811-78B3-4615-B29B-CC22A2D05DF0">
+            <Title>Accidental Complexity</Title>
+        </Document>
+        <Document ID="6728493B-8273-474A-BCD5-C6384BD25FE3">
+            <Title>DaS</Title>
+        </Document>
+        <Document ID="B84AEADC-7618-4D25-9D29-519091643E17">
+            <Title>Toolbox</Title>
+        </Document>
+        <Document ID="A72D4A1D-5B91-4EA8-8499-6A5F7EDE17AD">
+            <Title>Measurement of LOC</Title>
+        </Document>
+        <Document ID="90B00605-902B-4C30-9966-F04AD79ECDBB">
+            <Title>Refactoring Code</Title>
+        </Document>
+        <Document ID="885146A6-C54D-4369-88E1-348073A2DD61">
+            <Title>Parameter Counting</Title>
+        </Document>
+        <Document ID="5ED528D7-3190-4E4C-9EE5-BDBA3059C56C">
+            <Title>Compile Time vs. Run Time</Title>
+        </Document>
+        <Document ID="82192C21-859D-4F5A-8F72-E14F5E75FF58">
+            <Title>Example: Concurrency</Title>
+            <Text>For example, most of our programming languages (including /bin/*sh) treat concurrency as something to be avoided.  
+
+Special syntax is required to denote concurrency, e.g. "&amp;" in /bin/*sh.  
+
+Concurrency is implicitly treated as a second-class feature.
+
+Programmers now believe that concurrency is a "hard problem".
+
+We have seen "reasoning" about concurrent systems break down, e.g. the Mars Rover disaster.
+
+Even lowly JavaScript mistreats concurrency.
+
+We believe that network outages are "failures".
+
+Network outages are actually part of the problem-to-be-solved.  Our current crop of GPLs forces us to think of outages as errors instead of part of the problem.
+
+Happy Path culture.</Text>
+        </Document>
+        <Document ID="CDCEDF87-5BEC-4CA0-BD13-5F34B88F8D80">
+            <Title>Decisions</Title>
+            <Synopsis>control flow</Synopsis>
+        </Document>
+        <Document ID="4FD0B9E6-AA64-45EE-BC19-50B6CB515CCD">
+            <Title>DLLs</Title>
+        </Document>
+        <Document ID="75F38EDC-40F9-4C42-B228-39B69B38234E">
+            <Title>Scoping</Title>
+        </Document>
+        <Document ID="544FC1E0-B47C-4A6C-859E-7CF4899BB13C">
+            <Title>Prototypes vs. Classes</Title>
+        </Document>
+        <Document ID="F9C52843-A633-4D2B-BA18-21A373827E6E">
+            <Title>Locality of Reference</Title>
+        </Document>
+        <Document ID="CA7951D4-7531-4E6A-B370-EDD67F37B3AA">
+            <Title>Character Grids</Title>
+        </Document>
+        <Document ID="6150F759-FAE1-4E39-BA9E-63DCCC8CAB03">
+            <Title>Exhaustive Search</Title>
+            <Synopsis>- backtracking - miniKanren - relational programming </Synopsis>
+        </Document>
+        <Document ID="0EB597CF-663C-4AFF-BD43-723C35263895">
+            <Title>Macros</Title>
+        </Document>
+        <Document ID="DAB1FF03-0630-4E04-9358-0FD4AAE7FEEC">
+            <Title>Computers Are Machines</Title>
+        </Document>
+        <Document ID="6F142A96-1630-4BB3-BDF1-55AEFE6C52A6">
+            <Title>Relational Programming</Title>
+            <Synopsis>- Barliman - separation of concerns - Barliman is TDD on steroids</Synopsis>
+        </Document>
+        <Document ID="9CEB118D-F965-471F-A66A-410324BB8CD0">
+            <Title>Race Conditions</Title>
+            <Synopsis>- there is only one kind of race in physical systems - 2 events arriving so close together that our technology can't tell them apart - every other kind of race is accidental complexity brought on by using the wrong notation</Synopsis>
+        </Document>
+        <Document ID="6278E598-5061-4B90-8636-6B2512A909DB">
+            <Title>Type Checking</Title>
+        </Document>
+        <Document ID="7DFD446B-29B7-460F-A916-6775FAA898D9">
+            <Title>Operating Systems</Title>
+            <Text>- merely libraries that help with avoidance of concurrency</Text>
+        </Document>
+        <Document ID="B7868BA8-693B-4A22-8EC7-AF72FB28461B">
+            <Title>The Programming Environment</Title>
+            <Synopsis>- formerly known as the IDE</Synopsis>
+        </Document>
+        <Document ID="EE041F8B-5D6A-405E-8AD4-F6563FEED5DD">
+            <Title>Debugging</Title>
+        </Document>
+        <Document ID="1DCA2685-336B-43AB-AF4B-242735A24B94">
+            <Title>Parsing GREP - Beyond REGEXP</Title>
+        </Document>
+        <Document ID="CCC8083F-0223-4D92-83B9-E3EF6F6A0C01">
+            <Title>Thread Safety</Title>
+            <Synopsis>- due to memory sharing - memory sharing is supported only due to the outdated notion that memory is expensive - memory sharing cannot even be done on distributed computers (e.g. many cheap rPis), yet Linux installs support for memory sharing in every usage of Linux - in Copernicus' day this was called an "epicycle"</Synopsis>
+        </Document>
+        <Document ID="9BD3E24A-99E4-4274-B4B6-E1F95E0C4A4C">
+            <Title>Overview of PE</Title>
+            <Text>The ultimate goal is to produce a programming environment that
+	•	supports transpiling diagrams to code
+	•	support multiple notations, e.g. a grammar specification and a rewrite specification for every notation
+	•	concurrency as the default
+	•	macros (same as "mutiple notations" above)
+	•	include
+	•	like
+
+</Text>
+        </Document>
+        <Document ID="A1860142-65E7-441F-B048-8658BE04FB50">
+            <Title>Beyond Control Flow</Title>
+            <Synopsis>- if-then-else and more</Synopsis>
+        </Document>
+        <Document ID="69F6E219-A99E-4698-9982-54C4FBA8DDD1">
+            <Title>REPLs</Title>
+        </Document>
+        <Document ID="9E41F38A-F271-4FD3-AE9F-B83FA9684BB6">
+            <Title>Syntax Checking</Title>
+        </Document>
+        <Document ID="9A57F8F5-0F15-4CC7-AC67-B1C623E31B3A">
+            <Title>Detrimental Ideas</Title>
+            <Text>Several ideas hurt computing progress:
+	•	computers are functions
+	•	there is one programming language to "rule them all"
+	•	concurrency must be avoided.
+
+</Text>
+        </Document>
+        <Document ID="2B067906-5333-4D4A-BA4C-E18BAF453D59">
+            <Title>Interpreters vs. Compilers</Title>
+        </Document>
+        <Document ID="FA0B1024-4AF9-4D9F-94D5-1930C84DF673">
+            <Title>Synchrony Is A Tactic</Title>
+        </Document>
+    </Documents>
+</SearchIndexes>

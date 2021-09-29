@@ -1,0 +1,544 @@
+<html>
+
+<head>
+<title>Deprecating Programming Languages</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<!-- NOTE: margin property = top-right-bottom-left -->
+<style type="text/css">
+
+	body {background-color: #e2e2e2}
+    
+    p.topLevelItemTitle {
+    	margin: 30px 0px 5px 0px;
+    	font-family: Times, Times New Roman, Palatino, Cochin, Serif;
+    	font-size: 30px;
+    	}
+    	
+    p.folderTitle {
+    	margin: 30px 0px 5px 0px;
+    	font-family: Times, Times New Roman, Palatino, Cochin, Serif;
+    	font-size: 18px;
+    	}
+    
+    p.itemTitle {
+    	margin: 30px 0px 5px 0px;
+    	font-family: Helvetica, Arial, Sans-Serif;
+    	font-size: 12px;
+    	font-weight: bold;
+    	}
+    	
+    p.itemText {
+    	margin: 0px 0px 10px 0px;
+    	font-family: Helvetica, Arial, Sans-Serif;
+    	font-size: 12px;
+    	}
+    	
+    p.itemTextStart {
+    	margin: 30px 0px 10px 0px;
+    	font-family: Helvetica, Arial, Sans-Serif;
+    	font-size: 12px;
+    	}
+    
+    .page {border: 1px solid #c0c0c0; background: #fff}
+    
+    hr {
+        border: none;
+        height: 1px;
+        color: #d4d4d4;
+        background-color: #d4d4d4;
+      	}
+      	
+    hr.afterTitle {
+    	margin-top: -3px;
+    }
+      	
+    hr.afterText {
+    	margin-top: 30px;
+    }
+      	
+    ul {
+      	list-style-type: none;
+      	padding-left: 30px;
+      	}
+      	
+</style>
+
+</head>
+
+<body>
+
+<table border="0" width="100%" cellspacing="3">
+<tr>
+<td>
+
+<table class="page" width="100%" cellspacing="10" cellpadding="2">
+
+<!-- Top margin -->
+<!-- Not needed, because of the padding above titles. -->
+<!--<tr><td height="15px"></td></tr>-->
+
+<tr>
+
+<!-- 42 + 30 of list indent = 72 - one inch. -->
+<!-- Actually that ends up too much, so we do 25 + 30 = 55px. -->
+<td width="25px">
+
+<td valign="top">
+
+<ul>
+<li>
+<p class="topLevelItemTitle">Introduction</p>
+<p class="itemText">The concept of programming languages, especially GPLs (General Purpose Languages), should be deprecated.</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">There is only one thing that matters:</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>1. controlling machines</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">We resort to things that we call:</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- paradigms</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- experience.</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Programming languages are merely syntactic sugar for the above.</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Can we create a toolbox of paradigms, then drape syntactic sugar over them? <span class="Apple-converted-space"> </span></span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Yes.</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"></p>
+</li>
+<hr class="afterText"/>
+<ul>
+<li>
+<p class="itemTitle">Detrimental Ideas</p>
+<p class="itemText">Several ideas hurt computing progress:</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>• computers are functions</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>• there is one programming language to "rule them all"</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>• concurrency must be avoided.</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1"></p>
+</li>
+<hr class="afterText"/>
+<ul>
+<li>
+<p class="itemTitle">Computers Are Functions</p>
+</li>
+<li>
+<p class="itemTitle">One Programming Language to Rule Them All</p>
+</li>
+<li>
+<p class="itemTitle">Avoiding Concurrency</p>
+</li>
+</ul>
+<hr class="afterTitle"/>
+
+<li>
+<p class="itemTitle">Overview</p>
+<p class="itemText">I plan to:</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>1. list beneficial concepts that we have discovered through the development of various languages</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>2. list anti-beneficial concepts that have permeated our programming languages</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>3. list other technologies</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>4. suggest new perspectives<span class="Apple-converted-space"> </span></span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>5. suggest little tools based on the above ideas (e.g. replace DLLs with servers, replace GREP with a parsing-grep, replace subroutine libraries with Components, etc.)</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>6. Build prototypes for the tools suggested in (5) above.</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1"></p>
+</li>
+<li>
+<p class="itemTitle">Overview of PE</p>
+<p class="itemText">The ultimate goal is to produce a programming environment that</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>• supports transpiling diagrams to code</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>• support multiple notations, e.g. a grammar specification and a rewrite specification for every notation</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>• concurrency as the default</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>• macros (same as "mutiple notations" above)</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>• include</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>• like</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1"></p>
+</li>
+</ul>
+<hr class="afterText"/>
+
+<li>
+<p class="topLevelItemTitle">Programming Languages</p>
+</li>
+<hr class="afterTitle"/>
+<ul>
+<li>
+<p class="itemTitle">The Good Parts</p>
+</li>
+<hr class="afterTitle"/>
+<ul>
+<li>
+<p class="itemTitle">Syntax Checking</p>
+</li>
+<li>
+<p class="itemTitle">Parameter Counting</p>
+</li>
+<li>
+<p class="itemTitle">Type Checking</p>
+</li>
+<li>
+<p class="itemTitle">DRY</p>
+</li>
+<li>
+<p class="itemTitle">Decisions</p>
+<p class="itemText">control flow</p>
+</li>
+<li>
+<p class="itemTitle">Patterns</p>
+</li>
+<li>
+<p class="itemTitle">Data Structuring</p>
+</li>
+<li>
+<p class="itemTitle">Debugging</p>
+</li>
+<li>
+<p class="itemTitle">String Gluing and Manipulation</p>
+</li>
+<li>
+<p class="itemTitle">Sequencing</p>
+</li>
+<li>
+<p class="itemTitle">Locality of Reference</p>
+</li>
+<li>
+<p class="itemTitle">DLLs</p>
+</li>
+<li>
+<p class="itemTitle">Servers</p>
+</li>
+<li>
+<p class="itemTitle">Exhaustive Search</p>
+<p class="itemText">- backtracking<br></p>
+<p class="itemText">- miniKanren<br></p>
+<p class="itemText">- relational programming<br></p>
+
+</li>
+<li>
+<p class="itemTitle">Prototypes vs. Classes</p>
+</li>
+<li>
+<p class="itemTitle">Compile Time vs. Run Time</p>
+</li>
+<li>
+<p class="itemTitle">Dynamic vs. Static Types</p>
+</li>
+<li>
+<p class="itemTitle">Interpreters vs. Compilers</p>
+</li>
+<li>
+<p class="itemTitle">Brainstorming, Creativity</p>
+</li>
+<li>
+<p class="itemTitle">CASE on Strings</p>
+<p class="itemText">- switch/case on arbitrary expressions instead of only on constants<br></p>
+<p class="itemText">- Lisp COND<br></p>
+<p class="itemText">- JS switch</p>
+</li>
+<li>
+<p class="itemTitle">Indirection</p>
+</li>
+<li>
+<p class="itemTitle">OO - Case on Type</p>
+</li>
+<li>
+<p class="itemTitle">Separation of Concerns</p>
+<p class="itemText">- global variables —&gt; scoping<br></p>
+<p class="itemText">- PROLOG engine —&gt; query syntax vs. engine</p>
+</li>
+<li>
+<p class="itemTitle">Refactoring Architecture</p>
+</li>
+<li>
+<p class="itemTitle">Relational Programming</p>
+<p class="itemText">- Barliman<br></p>
+<p class="itemText">- separation of concerns<br></p>
+<p class="itemText">- Barliman is TDD on steroids</p>
+</li>
+<li>
+<p class="itemTitle">Scoping</p>
+</li>
+<li>
+<p class="itemTitle">Raspberry PIs</p>
+<p class="itemText">- etc.<br></p>
+<p class="itemText">- cheap distributed computing w/o the need for timesharing and memory sharing</p>
+</li>
+<li>
+<p class="itemTitle">Macros</p>
+</li>
+<li>
+<p class="itemTitle">REPLs</p>
+</li>
+</ul>
+<hr class="afterTitle"/>
+
+<li>
+<p class="itemTitle">The Bad Parts</p>
+</li>
+<hr class="afterTitle"/>
+<ul>
+<li>
+<p class="itemTitle">Computers Are Asynchronous</p>
+</li>
+<li>
+<p class="itemTitle">Synchrony Is A Tactic</p>
+</li>
+<li>
+<p class="itemTitle">Calculators</p>
+</li>
+<li>
+<p class="itemTitle">Immutability</p>
+</li>
+<li>
+<p class="itemTitle">Character Grids</p>
+</li>
+<li>
+<p class="itemTitle">Computers Are Machines</p>
+</li>
+<li>
+<p class="itemTitle">Describing Computers as Functions</p>
+</li>
+<li>
+<p class="itemTitle">Dependencies</p>
+</li>
+<li>
+<p class="itemTitle">Scalability</p>
+</li>
+<li>
+<p class="itemTitle">Accidental Complexity</p>
+</li>
+<li>
+<p class="itemTitle">Essential Complexity</p>
+<p class="itemText">There is no such thing as essential complexity.</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">There are only problems-to-be-solved.</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Problems can be made to seem more complex by choosing poor notations for describing the problems and their solutions.</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1"></p>
+</li>
+<hr class="afterText"/>
+<ul>
+<li>
+<p class="itemTitle">Example: Concurrency</p>
+<p class="itemText">For example, most of our programming languages (including /bin/*sh) treat concurrency as something to be avoided. <span class="Apple-converted-space"> </span></span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Special syntax is required to denote concurrency, e.g. "&amp;" in /bin/*sh. <span class="Apple-converted-space"> </span></span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Concurrency is implicitly treated as a second-class feature.</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Programmers now believe that concurrency is a "hard problem".</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">We have seen "reasoning" about concurrent systems break down, e.g. the Mars Rover disaster.</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Even lowly JavaScript mistreats concurrency.</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">We believe that network outages are "failure...</p>
+</li>
+</ul>
+<hr class="afterText"/>
+
+<li>
+<p class="itemTitle">CASE on Constants</p>
+<p class="itemText">- borne out of premature optimization</p>
+</li>
+<li>
+<p class="itemTitle">Mathematical Notation</p>
+<p class="itemText">1.5D<br></p>
+<p class="itemText">pen-and-paper, not for 2D/3D graphics</p>
+</li>
+<li>
+<p class="itemTitle">Premature Optimization</p>
+</li>
+<li>
+<p class="itemTitle">Dynamic Con...</p>
+<p class="itemText">- pub/sub is self-modifying code</p>
+</li>
+<li>
+<p class="itemTitle">Timesharing</p>
+</li>
+<li>
+<p class="itemTitle">Memory Sharing</p>
+</li>
+<li>
+<p class="itemTitle">Ownership</p>
+<p class="itemText">- was tried in 1960's FBP<br></p>
+<p class="itemText">- GC is better for Architecture<br></p>
+<p class="itemText">- ownership is better only for optimization</p>
+</li>
+<li>
+<p class="itemTitle">Premature Rigor</p>
+<p class="itemText">- math notation requires throwing away useful bits (mutability, state)</p>
+</li>
+<li>
+<p class="itemTitle">Measurement of LOC</p>
+</li>
+<li>
+<p class="itemTitle">Refactoring Code</p>
+</li>
+<li>
+<p class="itemTitle">Thread Safety</p>
+<p class="itemText">- accidental complexity due to Memory Sharing<br></p>
+<p class="itemText">- (see Memory Sharing)</p>
+</li>
+<li>
+<p class="itemTitle">Race Conditions</p>
+<p class="itemText">- there is only one kind of race in physical systems - 2 events arriving so close together that our technology can't tell them apart<br></p>
+<p class="itemText">- every other kind of race is accidental complexity brought on by using the wrong notation</p>
+</li>
+<li>
+<p class="itemTitle">Thread Safety</p>
+<p class="itemText">- due to memory sharing<br></p>
+<p class="itemText">- memory sharing is supported only due to the outdated notion that memory is expensive<br></p>
+<p class="itemText">- memory sharing cannot even be done on distributed computers (e.g. many cheap rPis), yet Linux installs support for memory sharing in every usage of Linux<br></p>
+<p class="itemText">- in Copernicus' day this was called an "epicycle"</p>
+</li>
+</ul>
+</ul>
+<hr class="afterText"/>
+
+<li>
+<p class="topLevelItemTitle">Other Technologies - To Be Considered</p>
+</li>
+<hr class="afterTitle"/>
+<ul>
+<li>
+<p class="itemTitle">Framing Software Reuse</p>
+<p class="itemText">multiple use vs. reuse</p>
+</li>
+<li>
+<p class="itemTitle">Ackley MFM</p>
+</li>
+<li>
+<p class="itemTitle">TTL Hardware Design</p>
+<p class="itemText">- everything is concurrent<br></p>
+<p class="itemText">- input pins and output pins (input API, output API)<br></p>
+<p class="itemText">- timing<br></p>
+<p class="itemText">- REQ/ACK protocol<br></p>
+<p class="itemText">- generally doesn't break when shipped</p>
+</li>
+<li>
+<p class="itemTitle">Networking in the Small</p>
+</li>
+<li>
+<p class="itemTitle">Borrowing Processes from Construction</p>
+</li>
+<li>
+<p class="itemTitle">Worlds</p>
+<p class="itemText">- adjunct to Ohm-JS thesis</p>
+</li>
+<li>
+<p class="itemTitle">Music Notation</p>
+<p class="itemText">- hard realtime<br></p>
+<p class="itemText">- sequencing<br></p>
+<p class="itemText">- repetition<br></p>
+
+</li>
+<li>
+<p class="itemTitle">StateCharts - Control Flow</p>
+</li>
+<li>
+<p class="itemTitle">Business ORG Charts</p>
+<p class="itemText">- https://guitarvydas.github.io/2021/09/21/ORG-Chart-Takeaways.html</p>
+</li>
+</ul>
+<hr class="afterText"/>
+
+<li>
+<p class="topLevelItemTitle">Elephant in the Room</p>
+<p class="itemText">- isolation obviates most epicycles we have invented</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- isolation solves dependency problems - they can't happen, except via mailboxes, no memory sharing</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- FP provides pseudo-isolation by prohibiting mutability</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- UNIX essentially produced concurrent sandboxes for every command, nothing in the command code could affect other commands (assisted by hardware ; distributed computing (e.g. multiple rPis) results in the same kind of sandboxing)</p>
+</li>
+<li>
+<p class="topLevelItemTitle">Programming is not Mathematics</p>
+<p class="itemText">- parts of programming can be described using mathematical notation</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- but, only parts</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"></p>
+</li>
+<li>
+<p class="topLevelItemTitle">Mathematics is not Programming</p>
+<p class="itemText">- mathematics can describe some of programming, but not all of programming</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- programming is machine control and sequencing</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- mathematics describes functions - input always leads to output - but programming describes something more (input and no output - see Asynch Thinking)</p>
+</li>
+<li>
+<p class="topLevelItemTitle">New Perspectives</p>
+</li>
+<hr class="afterTitle"/>
+<ul>
+<li>
+<p class="itemTitle">DaS</p>
+</li>
+<li>
+<p class="itemTitle">Beyond Control Flow</p>
+<p class="itemText">- if-then-else and more</p>
+</li>
+<li>
+<p class="itemTitle">Toolbox</p>
+</li>
+<li>
+<p class="itemTitle">Multiple Syntaxes</p>
+</li>
+<li>
+<p class="itemTitle">Relative References</p>
+</li>
+<li>
+<p class="itemTitle">Expanding Variables</p>
+</li>
+<li>
+<p class="itemTitle">PEG Parsing</p>
+</li>
+<li>
+<p class="itemTitle">Concurrency</p>
+</li>
+<li>
+<p class="itemTitle">Parsing GREP - Beyond REGEXP</p>
+</li>
+<li>
+<p class="itemTitle">The Programming Environment</p>
+<p class="itemText">- formerly known as the IDE</p>
+</li>
+<li>
+<p class="itemTitle">Like</p>
+<p class="itemText">- like that, except<br></p>
+<p class="itemText">- automated DRY</p>
+</li>
+</ul>
+<hr class="afterText"/>
+
+<li>
+<p class="topLevelItemTitle">Desktop vs. Mobile</p>
+</li>
+<li>
+<p class="topLevelItemTitle">Security</p>
+<p class="itemText">- left to others</p>
+</li>
+<li>
+<p class="topLevelItemTitle">Libraries</p>
+</li>
+<li>
+<p class="topLevelItemTitle">Operating Systems</p>
+<p class="itemText">- merely libraries that help with avoidance of concurrency</p>
+</li>
+</ul>
+
+</td>
+<td width="55px">
+</td>
+</tr>
+
+<!-- Bottom margin -->
+<tr><td height="15px"></td></tr>
+
+</table>
+
+</td>
+</tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,1 @@
+- was tried in 1960's FBP - GC is better for Architecture - ownership is better only for optimization
