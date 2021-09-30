@@ -1,1 +1,5 @@
-control flow
+- control flow
+- if then else end if
+- switch case … end switch
+- see also Drakon for separation of concerns - control flow separated from data definition
+- see also StateCharts (State is OK, if tamed)

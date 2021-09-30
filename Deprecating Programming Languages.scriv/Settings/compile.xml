@@ -3,6 +3,7 @@
     <ProjectSettings>
         <Content Scope="Included">
             <Filter State="Off" Exclude="No" Type="Label">
+                <CollectionID>CDEED14D-824B-4F26-8A7B-162A755B0491</CollectionID>
                 <Label>-1</Label>
                 <Status>-1</Status>
             </Filter>
@@ -13,7 +14,7 @@
             <ResampleImages DPI="72">No</ResampleImages>
             <ConvertTablesAndListToMMD>Yes</ConvertTablesAndListToMMD>
             <PDF>
-                <Cover Bleed="9.0" BleedUnits="pt"/>
+                <Cover Source="FrontMatter" Bleed="9.0" BleedUnits="pt"/>
                 <Compression Enabled="No">
                     <ImageResolutionCompressionType>Set</ImageResolutionCompressionType>
                     <ImageResolution>150</ImageResolution>
@@ -42,9 +43,6 @@
         <MetaData>
             <ProjectTitle>Deprecating Programming Languages</ProjectTitle>
             <ProjectAbbreviatedTitle>Deprecating Programming Languages</ProjectAbbreviatedTitle>
-            <Authors>
-                <Author Role="aut"></Author>
-            </Authors>
             <EbookLanguage>en</EbookLanguage>
             <FountainTitlePageMetaData>
                 <Value Key="Title"><![CDATA[<$projecttitle>]]></Value>
@@ -56,14 +54,18 @@
             </MMDMetaData>
         </MetaData>
     </ProjectSettings>
-    <CurrentFileType>Print</CurrentFileType>
+    <CurrentFileType>mmd</CurrentFileType>
     <FormatSettings>
         <Format ID="DEFAULT">
             <SectionLayouts>
                 <Type ID="054AF507-D021-49C6-982B-8137112380EE">NEW-PAGE-HEADER-WITH-TEXT</Type>
-                <Type ID="960DA84E-1829-498B-B062-16B06BE5A4A4">TEXT-SECTION</Type>
+                <Type ID="AA699E0B-5840-4870-99C2-EC011EC92B13">AS-IS</Type>
+                <Type ID="960DA84E-1829-498B-B062-16B06BE5A4A4">TEXT-WITH-HEADER</Type>
             </SectionLayouts>
         </Format>
     </FormatSettings>
-    <LastUsedFormats/>
+    <LastUsedFormats>
+        <Print>DEFAULT</Print>
+        <mmd>DEFAULT</mmd>
+    </LastUsedFormats>
 </CompileSettings>

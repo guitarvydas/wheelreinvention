@@ -1,0 +1,3 @@
+- easy and a good idea
+- count parameters in a function definition
+- check that all references to the function have exactly the right number of parameters

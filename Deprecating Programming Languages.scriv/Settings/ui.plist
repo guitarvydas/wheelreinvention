@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CompileFolder</key>
+	<string>/Users/tarvydas/quicklisp/local-projects/wheelreinvention</string>
 	<key>NotesScaleFactor</key>
 	<real>1.5</real>
 	<key>QRPanelSettings</key>
@@ -54,8 +56,8 @@
 	</dict>
 	<key>binderSplitFrames</key>
 	<array>
-		<string>{{0, 0}, {265, 843}}</string>
-		<string>{{266, 0}, {1374, 843}}</string>
+		<string>{{0, 0}, {555, 843}}</string>
+		<string>{{556, 0}, {1084, 843}}</string>
 	</array>
 	<key>bookmarksSelectionInfo</key>
 	<dict>
@@ -85,6 +87,11 @@
 			<integer>-1</integer>
 		</dict>
 		<key>0F5F6A19-CD4D-4B1F-90FF-34380EE363FB</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
+		</dict>
+		<key>0F709A55-103B-4F76-B07C-339941A83903</key>
 		<dict>
 			<key>Row</key>
 			<integer>-1</integer>
@@ -269,6 +276,11 @@
 			<key>Row</key>
 			<integer>-1</integer>
 		</dict>
+		<key>7E61DAD4-142F-4BAB-AA7B-4DFB20755324</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
+		</dict>
 		<key>81E96C61-9141-4675-9B12-EAD34E0BAE9D</key>
 		<dict>
 			<key>Row</key>
@@ -320,6 +332,11 @@
 			<integer>-1</integer>
 		</dict>
 		<key>9BD3E24A-99E4-4274-B4B6-E1F95E0C4A4C</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
+		</dict>
+		<key>9CAB9949-B8E6-49B0-806B-BFC74667C4CA</key>
 		<dict>
 			<key>Row</key>
 			<integer>-1</integer>
@@ -399,6 +416,11 @@
 			<key>Row</key>
 			<integer>-1</integer>
 		</dict>
+		<key>C9C16404-1E7E-454A-8A6F-18143863A88A</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
+		</dict>
 		<key>C9D80D23-22D2-4277-8C79-18A9DF464FC7</key>
 		<dict>
 			<key>Row</key>
@@ -430,6 +452,11 @@
 			<integer>-1</integer>
 		</dict>
 		<key>CDCF7BEE-97DD-4C35-AED0-9AB37859C0F7</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
+		</dict>
+		<key>CFDC4731-3439-4D42-8E21-2FC73BEA6A71</key>
 		<dict>
 			<key>Row</key>
 			<integer>-1</integer>
@@ -485,6 +512,11 @@
 			<integer>-1</integer>
 		</dict>
 		<key>E8A5603B-ABB6-40D5-A8B4-510C4A289A70</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
+		</dict>
+		<key>EA17B990-92D8-4369-A048-6DFB5C23DDA9</key>
 		<dict>
 			<key>Row</key>
 			<integer>-1</integer>
@@ -559,8 +591,8 @@
 	</dict>
 	<key>inspectorSplitFrames</key>
 	<array>
-		<string>{{0, 0}, {1128, 813}}</string>
-		<string>{{1129, 0}, {245, 813}}</string>
+		<string>{{0, 0}, {838, 813}}</string>
+		<string>{{839, 0}, {245, 813}}</string>
 	</array>
 	<key>inspectorWidth</key>
 	<real>245</real>
@@ -577,7 +609,7 @@
 		<real>1.5</real>
 	</dict>
 	<key>mainWindowFrame</key>
-	<string>230 162 1640 871 0 0 1920 1055 </string>
+	<string>43 162 1640 871 0 0 1920 1055 </string>
 	<key>supportingDocumentEditor.dockedQRTextSettings</key>
 	<dict>
 		<key>textScaleFactor</key>

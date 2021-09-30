@@ -100,7 +100,7 @@
 <p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
 <p class="itemText"><p class="p1"><span class="s1">Programming languages are merely syntactic sugar for the above.</span></p></p>
 <p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
-<p class="itemText"><p class="p1"><span class="s1">Can we create a toolbox of paradigms, then drape syntactic sugar over them? <span class="Apple-converted-space"> </span></span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Can we create a toolbox of paradigms, then drape syntactic sugar over the paradigms? <span class="Apple-converted-space"> </span></span></p></p>
 <p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
 <p class="itemText"><p class="p1"><span class="s1">Yes.</span></p></p>
 <p class="itemText"><p class="p1"><span class="s1"></p>
@@ -110,22 +110,22 @@
 <li>
 <p class="itemTitle">Detrimental Ideas</p>
 <p class="itemText">Several ideas hurt computing progress:</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>• computers are functions</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>• there is one programming language to "rule them all"</span></p></p>
-<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>• concurrency must be avoided.</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>• computers are functions (detrimental idea)</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>• there is one programming language to "rule them all" (detrimental idea)</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>• concurrency must be avoided (detrimental idea)</span></p></p>
 <p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
 <p class="itemText"><p class="p1"><span class="s1"></p>
 </li>
 <hr class="afterText"/>
 <ul>
 <li>
-<p class="itemTitle">Computers Are Functions</p>
+<p class="itemTitle">Computers Are Functions (detrimental idea)</p>
 </li>
 <li>
-<p class="itemTitle">One Programming Language to Rule Them All</p>
+<p class="itemTitle">One Programming Language to Rule Them All (detrimental idea)</p>
 </li>
 <li>
-<p class="itemTitle">Avoiding Concurrency</p>
+<p class="itemTitle">Avoiding Concurrency (detrimental idea)</p>
 </li>
 </ul>
 <hr class="afterTitle"/>
@@ -145,8 +145,9 @@
 </li>
 <li>
 <p class="itemTitle">Overview of PE</p>
-<p class="itemText">The ultimate goal is to produce a programming environment that</span></p></p>
+<p class="itemText">The goal is to produce a PE (programming environment) that</span></p></p>
 <p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>• supports transpiling diagrams to code</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>• supports transpiling text to code</span></p></p>
 <p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>• support multiple notations, e.g. a grammar specification and a rewrite specification for every notation</span></p></p>
 <p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>• concurrency as the default</span></p></p>
 <p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>• macros (same as "mutiple notations" above)</span></p></p>
@@ -170,22 +171,38 @@
 <ul>
 <li>
 <p class="itemTitle">Syntax Checking</p>
+<p class="itemText">- "end if" is easy and a good idea (use "end …" instead of a single character like "}" or ")")</p>
 </li>
 <li>
 <p class="itemTitle">Parameter Counting</p>
+<p class="itemText">- easy and a good idea</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- count parameters in a function definition</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- check that all references to the function have exactly the right number of parameters</p>
 </li>
 <li>
 <p class="itemTitle">Type Checking</p>
+<p class="itemText">- type checking is "good to have"</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- currently, type checking is still hard (unlike, say, "end if" syntax checking)</p>
 </li>
 <li>
 <p class="itemTitle">DRY</p>
+<p class="itemText">- Don't Repeat Yourself</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- should be done automatically not manually (extend usages of "diff" and "git")</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- see also NiCAD</p>
 </li>
 <li>
 <p class="itemTitle">Decisions</p>
-<p class="itemText">control flow</p>
+<p class="itemText">- control flow</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- if then else end if</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- switch case … end switch</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- see also Drakon for separation of concerns - control flow separated from data definition</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- see also StateCharts (State is OK, if tamed)</p>
 </li>
 <li>
 <p class="itemTitle">Patterns</p>
+<p class="itemText">- current rage in FP circles</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- well understood under the name of Parsing (compiler technology)</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- see also Ohm-JS, PEG</p>
 </li>
 <li>
 <p class="itemTitle">Data Structuring</p>
@@ -240,7 +257,8 @@
 <p class="itemTitle">Indirection</p>
 </li>
 <li>
-<p class="itemTitle">OO - Case on Type</p>
+<p class="itemTitle">OO</p>
+<p class="itemText">- case on type</p>
 </li>
 <li>
 <p class="itemTitle">Separation of Concerns</p>
@@ -266,9 +284,20 @@
 </li>
 <li>
 <p class="itemTitle">Macros</p>
+<p class="itemText">- programs that write programs</p>
 </li>
 <li>
 <p class="itemTitle">REPLs</p>
+<p class="itemText">- debuggability</p>
+</li>
+<li>
+<p class="itemTitle">DLLs</p>
+<p class="itemText">- separate modules</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- indirection</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- servers</p>
+</li>
+<li>
+<p class="itemTitle">Include</p>
 </li>
 </ul>
 <hr class="afterTitle"/>
@@ -409,6 +438,8 @@
 </li>
 <li>
 <p class="itemTitle">Ackley MFM</p>
+<p class="itemText">- hierarchy</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- no component has an absolute address (name)</p>
 </li>
 <li>
 <p class="itemTitle">TTL Hardware Design</p>
@@ -503,8 +534,8 @@
 <p class="itemText">- formerly known as the IDE</p>
 </li>
 <li>
-<p class="itemTitle">Like</p>
-<p class="itemText">- like that, except<br></p>
+<p class="itemTitle">Like (Same As, Except)</p>
+<p class="itemText">- same as that, except<br></p>
 <p class="itemText">- automated DRY</p>
 </li>
 </ul>
@@ -513,6 +544,33 @@
 <li>
 <p class="topLevelItemTitle">Desktop vs. Mobile</p>
 </li>
+<li>
+<p class="topLevelItemTitle">How To Do This With Today's Technology</p>
+<p class="itemText">- use these principles without waiting for language support (needs discipline)</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- Assembler programmers employed Structured Programming before it appeared in programming languages</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- use closures instead of threads</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- build apps using UNIX command-line commands as Components (measure if the app needs to optimized LATER)</p>
+</li>
+<hr class="afterText"/>
+<ul>
+<li>
+<p class="itemTitle">Ohm-JS</p>
+</li>
+<li>
+<p class="itemTitle">SWIPL</p>
+</li>
+<li>
+<p class="itemTitle">Toolbox</p>
+<p class="itemText">- Common Lisp</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- Javascript</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">- Python</p>
+</li>
+<li>
+<p class="itemTitle">Untitled Document</p>
+</li>
+</ul>
+<hr class="afterTitle"/>
+
 <li>
 <p class="topLevelItemTitle">Security</p>
 <p class="itemText">- left to others</p>

@@ -1,0 +1,4 @@
+- use these principles without waiting for language support (needs discipline)
+- Assembler programmers employed Structured Programming before it appeared in programming languages
+- use closures instead of threads
+- build apps using UNIX command-line commands as Components (measure if the app needs to optimized LATER)

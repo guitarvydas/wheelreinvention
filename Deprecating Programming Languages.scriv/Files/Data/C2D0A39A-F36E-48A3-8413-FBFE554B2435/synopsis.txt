@@ -1,0 +1,3 @@
+- Don't Repeat Yourself
+- should be done automatically not manually (extend usages of "diff" and "git")
+- see also NiCAD

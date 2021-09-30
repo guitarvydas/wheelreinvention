@@ -1,0 +1,2 @@
+- hierarchy
+- no component has an absolute address (name)

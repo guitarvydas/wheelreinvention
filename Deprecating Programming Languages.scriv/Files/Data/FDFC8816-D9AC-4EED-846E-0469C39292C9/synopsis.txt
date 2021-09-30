@@ -1,0 +1,3 @@
+- current rage in FP circles
+- well understood under the name of Parsing (compiler technology)
+- see also Ohm-JS, PEG

@@ -1,1 +1,1 @@
-- like that, except - automated DRY
+- same as that, except - automated DRY

@@ -1,0 +1,2 @@
+- type checking is "good to have"
+- currently, type checking is still hard (unlike, say, "end if" syntax checking)
