@@ -40,3 +40,23 @@ I have googled for this and have found nothing useful (maybe my error in selecti
 This should be a no-brainer, but I'm stumped.
 
 thanks in advance
+
+---
+
+I haven't forgotten your request, but I have been way-laid by a bunch of unexpected time sinks (minor things, like a broken tooth, etc.)
+
+I have pushed a repo https://github.com/guitarvydas/callreturnspaghetti which implements the code in https://guitarvydas.github.io/2020/12/09/CALL-RETURN-Spaghetti.html using JS and Common Lisp. It implements the sync version in Python, but I didn't get the async version to work (due to my unfamiliarity with Python).
+
+Try "run.bash".
+
+Is that what you were looking for?
+
+It's a toy example, but shows the principles of what I think Concurrency really should be.
+
+The toy example has more code for the async cases, but the ratio (of code-to-effect) changes as you build real code. (Or, so I claim).
+
+I think that the real benefit of Concurrency is not "code" per se, but the ability to think about Architecture at a higher level.  There was an explosion of capabilities when we transitioned from Assembler to HLLs, and, now I think there will be another explosion as we transition from HLL GPLs to Notations.
+
+To implement Concurrency - today - all you need are anonymous, first-class functions.  Nothing special, just a different way to think about this stuff.
+
+If the sample code does not satisfy you, please let me know (I'm finding it hard to explain how easy this stuff is, I need push-back).
