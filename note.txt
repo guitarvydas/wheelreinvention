@@ -1,0 +1,42 @@
+> @paultarvydas You're absolutely right that we need more isolation. But I don't think you can go all the way. Sharing memory isn't some kind of bug. It's needed. You can only truly isolate things when they don't need to interact. If you want to run a physics simulation on multiple cpu's, you need them to share data.
+
+IMO, Memory Sharing is the exception, not the rule.
+
+Memory sharing is a tactic and should not be the default for every app.
+
+One shouldn't have to pay for memory sharing in every app.  We pay for memory sharing in most language designs (e.g. State isn't bad, except when it's shared / sprayed / not-isolated) and in most O/Ss (thread safety, mmap (), hardware mmu support, etc, etc).
+
+---
+
+Even to implement message passing, you need to share memory
+And to do zero-copy memory transfers you need to share more memory
+This is important for some high-perf applications
+Another feature that OSs provide is honest-to-goodness big lumps of library code, like file handling.
+
+That stuff can simply be moved into LEGO(R) components that replace the concept of libraries.
+
+No OS needed for this, either.
+
+But the OS is like a library
+You could extend the notion of OS to the libc or at least to userland implementation portions of (nominally) system calls
+The OS is basically a library of things that access stuff that must be memory-protected
+You don't need memory protection if you're only ever running a single process, but I haven't seen anyone demonstrate how a useful OS within a single process would work. It would probably have to reinvent its own memory protection (instead of relying on the MMU etc) 
+Short of Terry Davis's TempleOS that is, hah hah
+I don't see how to get rid of DLLs either. Functionally, DLLs are libraries that can be updated independently of user's executables. In Linux world especially, they were also meant to be useful to save memory and to ease fixing of security critical bugs. There are debates whether DLLs have lived up to their expectations in that regard. In any case however, I think DLLs are required as translation layers between APIs and ABIs (such as userspace processes -> kernel or other services that are running in a different process)
+
+
+I have 2 cpus in two separate rooms, joined by a wire.
+
+They send messages to each other across the wire.
+
+---
+
+I need a small example of how to write in Javascript a client that sends text to a server, e.g. "abc" and receives modified text, e.g. "def" and returns it.
+
+I am a newbie in JS (and http in general).  I need to bolt this client functionality onto a piece of existing JS. The JS client will call a function with a string and wait for it to return a modified string.
+
+I have googled for this and have found nothing useful (maybe my error in selecting search phrases?).
+
+This should be a no-brainer, but I'm stumped.
+
+thanks in advance

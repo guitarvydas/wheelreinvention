@@ -56,11 +56,16 @@
 	</dict>
 	<key>binderSplitFrames</key>
 	<array>
-		<string>{{0, 0}, {555, 843}}</string>
-		<string>{{556, 0}, {1084, 843}}</string>
+		<string>{{0, 0}, {555, 900}}</string>
+		<string>{{556, 0}, {1084, 900}}</string>
 	</array>
 	<key>bookmarksSelectionInfo</key>
 	<dict>
+		<key>009D42A8-ABF8-4958-A807-39D0640E7CDE</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
+		</dict>
 		<key>020FB417-1239-4C43-A75D-C92116626674</key>
 		<dict>
 			<key>Row</key>
@@ -102,6 +107,11 @@
 			<integer>-1</integer>
 		</dict>
 		<key>2B067906-5333-4D4A-BA4C-E18BAF453D59</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
+		</dict>
+		<key>31C9093F-EB54-40B5-83BF-E7E6B8FE290B</key>
 		<dict>
 			<key>Row</key>
 			<integer>-1</integer>
@@ -152,6 +162,11 @@
 			<integer>-1</integer>
 		</dict>
 		<key>49EE0BD4-9EC4-4C95-881D-E472F8D4EF3A</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
+		</dict>
+		<key>4C1EEF53-C615-4CCD-B7F2-1F65D913E887</key>
 		<dict>
 			<key>Row</key>
 			<integer>-1</integer>
@@ -262,6 +277,11 @@
 			<integer>-1</integer>
 		</dict>
 		<key>77D6F007-E404-4470-B111-11736A93512C</key>
+		<dict>
+			<key>Row</key>
+			<integer>-1</integer>
+		</dict>
+		<key>786785BE-5AB2-4C66-8438-FBF24246C2DF</key>
 		<dict>
 			<key>Row</key>
 			<integer>-1</integer>
@@ -591,8 +611,8 @@
 	</dict>
 	<key>inspectorSplitFrames</key>
 	<array>
-		<string>{{0, 0}, {838, 813}}</string>
-		<string>{{839, 0}, {245, 813}}</string>
+		<string>{{0, 0}, {838, 870}}</string>
+		<string>{{839, 0}, {245, 870}}</string>
 	</array>
 	<key>inspectorWidth</key>
 	<real>245</real>
@@ -600,6 +620,17 @@
 	<dict>
 		<key>textScaleFactor</key>
 		<real>1.5</real>
+	</dict>
+	<key>mainDocumentEditor.outlinerColumnsWidths</key>
+	<dict>
+		<key>label</key>
+		<real>85</real>
+		<key>sectionType</key>
+		<real>100</real>
+		<key>status</key>
+		<real>85</real>
+		<key>title</key>
+		<real>253</real>
 	</dict>
 	<key>mainDocumentEditor.scrollRect</key>
 	<string>{{0, 0}, {620, 504.66666666666669}}</string>
@@ -609,7 +640,7 @@
 		<real>1.5</real>
 	</dict>
 	<key>mainWindowFrame</key>
-	<string>43 162 1640 871 0 0 1920 1055 </string>
+	<string>43 105 1640 928 0 0 1920 1055 </string>
 	<key>supportingDocumentEditor.dockedQRTextSettings</key>
 	<dict>
 		<key>textScaleFactor</key>

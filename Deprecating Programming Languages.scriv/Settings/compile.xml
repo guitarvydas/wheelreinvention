@@ -66,6 +66,6 @@
     </FormatSettings>
     <LastUsedFormats>
         <Print>DEFAULT</Print>
-        <mmd>DEFAULT</mmd>
+        <mmd>markdown-outline</mmd>
     </LastUsedFormats>
 </CompileSettings>

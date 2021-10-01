@@ -1,0 +1,2 @@
+- HTTP servers are DLLs
+- Why don't we use them as DLLs? Callback and CPS notation is too clunky.

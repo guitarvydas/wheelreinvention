@@ -1,0 +1,7 @@
+> @paultarvydas You're absolutely right that we need more isolation. But I don't think you can go all the way. Sharing memory isn't some kind of bug. It's needed. You can only truly isolate things when they don't need to interact. If you want to run a physics simulation on multiple cpu's, you need them to share data.
+
+IMO, Memory Sharing is the exception, not the rule.
+
+Memory sharing is a tactic and should not be the default for every app.
+
+One shouldn't have to pay for memory sharing in every app.  We pay for memory sharing in most language designs (e.g. State isn't bad, except when it's shared) and in most O/Ss (thread safety, mmap () and hardware mmu support).

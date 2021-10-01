@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="BDDB1C21-A471-4254-B2E8-2B3F14BEF786" Version="2.0" Creator="SCRMAC-3.2.2-14633" Device="Pauls-MacBook-Pro-279" Author="" Modified="2021-09-29 22:06:22 -0400" ModID="BA7D0D0C-BE6C-4EBC-AD46-DECAAC45CA26">
+<ScrivenerProject Identifier="BDDB1C21-A471-4254-B2E8-2B3F14BEF786" Version="2.0" Creator="SCRMAC-3.2.2-14633" Device="Pauls-MacBook-Pro-279" Author="" Modified="2021-10-01 00:10:43 -0400" ModID="91FDDEFB-2A1F-4690-9DB7-D1C9F2C725DB">
     <Binder>
         <BinderItem UUID="94BDB3AA-3581-49B2-A66B-D7C330B449C8" Type="DraftFolder" Created="2021-09-26 06:01:15 -0400" Modified="2021-09-26 06:01:15 -0400">
             <Title>Draft</Title>
@@ -16,7 +16,7 @@
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>0,389</TextSelection>
+                        <TextSelection>229,0</TextSelection>
                     </TextSettings>
                     <CorkboardAndOutliner>
                         <SelectedSubdocumentUUIDs>9BD3E24A-99E4-4274-B4B6-E1F95E0C4A4C</SelectedSubdocumentUUIDs>
@@ -97,9 +97,6 @@
                             <TextSettings>
                                 <TextSelection>0,0</TextSelection>
                             </TextSettings>
-                            <CorkboardAndOutliner>
-                                <SelectedSubdocumentUUIDs>FDFC8816-D9AC-4EED-846E-0469C39292C9</SelectedSubdocumentUUIDs>
-                            </CorkboardAndOutliner>
                             <Children>
                                 <BinderItem UUID="9E41F38A-F271-4FD3-AE9F-B83FA9684BB6" Type="Text" Created="2021-09-26 06:03:39 -0400" Modified="2021-09-29 11:45:14 -0400">
                                     <Title>Syntax Checking</Title>
@@ -200,7 +197,7 @@
                                         <TextSelection>0,0</TextSelection>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem UUID="4FD0B9E6-AA64-45EE-BC19-50B6CB515CCD" Type="Text" Created="2021-09-26 06:05:54 -0400" Modified="2021-09-26 06:05:57 -0400">
+                                <BinderItem UUID="4FD0B9E6-AA64-45EE-BC19-50B6CB515CCD" Type="Text" Created="2021-09-26 06:05:54 -0400" Modified="2021-09-30 07:17:37 -0400">
                                     <Title>DLLs</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -625,7 +622,7 @@
                         </BinderItem>
                     </Children>
                 </BinderItem>
-                <BinderItem UUID="C9D80D23-22D2-4277-8C79-18A9DF464FC7" Type="Text" Created="2021-09-26 06:12:16 -0400" Modified="2021-09-26 08:00:09 -0400">
+                <BinderItem UUID="C9D80D23-22D2-4277-8C79-18A9DF464FC7" Type="Text" Created="2021-09-26 06:12:16 -0400" Modified="2021-09-30 23:55:07 -0400">
                     <Title>Other Technologies - To Be Considered</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -633,9 +630,6 @@
                     <TextSettings>
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
-                    <CorkboardAndOutliner>
-                        <SelectedSubdocumentUUIDs>45BE6421-6701-4F97-BB1A-1BB557EF939A</SelectedSubdocumentUUIDs>
-                    </CorkboardAndOutliner>
                     <Children>
                         <BinderItem UUID="5E03FFAC-865D-437D-8FA7-0633435877D3" Type="Text" Created="2021-09-26 06:12:27 -0400" Modified="2021-09-26 06:12:48 -0400">
                             <Title>Framing Software Reuse</Title>
@@ -711,6 +705,33 @@
                         </BinderItem>
                         <BinderItem UUID="45BE6421-6701-4F97-BB1A-1BB557EF939A" Type="Text" Created="2021-09-26 09:00:44 -0400" Modified="2021-09-26 09:01:44 -0400">
                             <Title>Business ORG Charts</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="4C1EEF53-C615-4CCD-B7F2-1F65D913E887" Type="Text" Created="2021-09-30 23:51:40 -0400" Modified="2021-09-30 23:52:25 -0400">
+                            <Title>ASON</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="009D42A8-ABF8-4958-A807-39D0640E7CDE" Type="Text" Created="2021-09-30 23:53:48 -0400" Modified="2021-09-30 23:54:23 -0400">
+                            <Title>OCG</Title>
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="31C9093F-EB54-40B5-83BF-E7E6B8FE290B" Type="Text" Created="2021-09-30 23:54:27 -0400" Modified="2021-09-30 23:55:52 -0400">
+                            <Title>RTL</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
@@ -902,7 +923,8 @@
                                 <TextSelection>0,0</TextSelection>
                             </TextSettings>
                         </BinderItem>
-                        <BinderItem UUID="CFDC4731-3439-4D42-8E21-2FC73BEA6A71" Type="Text" Created="2021-09-29 07:24:52 -0400" Modified="2021-09-29 07:24:52 -0400">
+                        <BinderItem UUID="786785BE-5AB2-4C66-8438-FBF24246C2DF" Type="Text" Created="2021-10-01 00:10:36 -0400" Modified="2021-10-01 00:10:41 -0400">
+                            <Title>Pipelines</Title>
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
@@ -982,6 +1004,14 @@
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
+                <BinderItem UUID="CFDC4731-3439-4D42-8E21-2FC73BEA6A71" Type="Text" Created="2021-09-29 07:24:52 -0400" Modified="2021-09-29 07:24:52 -0400">
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
             </Children>
         </BinderItem>
     </Binder>
@@ -1039,12 +1069,12 @@
     </StatusSettings>
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2021-09-26 06:01:12 -0400" IgnoreDeadline="Yes">0</DraftTarget>
-        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2021-09-30 01:00:00 -0400" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="12" Characters="98" Date="2021-09-29 07:08:46 -0400"/>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2021-10-01 01:00:00 -0400" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
+        <PreviousSession Words="0" Characters="0" Date="2021-09-30 07:16:57 -0400"/>
     </ProjectTargets>
-    <RecentWritingHistory Date="2021-09-29 00:00:00 -0400">
-        <DraftWordCount>12</DraftWordCount>
-        <DraftCharCount>98</DraftCharCount>
+    <RecentWritingHistory Date="2021-10-01 00:00:00 -0400">
+        <DraftWordCount>0</DraftWordCount>
+        <DraftCharCount>0</DraftCharCount>
         <OtherWordCount>0</OtherWordCount>
         <OtherCharCount>0</OtherCharCount>
     </RecentWritingHistory>
