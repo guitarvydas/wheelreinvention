@@ -633,14 +633,14 @@
 		<real>253</real>
 	</dict>
 	<key>mainDocumentEditor.scrollRect</key>
-	<string>{{0, 0}, {620, 504.66666666666669}}</string>
+	<string>{{0, 0}, {548.66666666666663, 542.66666666666663}}</string>
 	<key>mainDocumentEditor.textEditorState</key>
 	<dict>
 		<key>textScaleFactor</key>
 		<real>1.5</real>
 	</dict>
 	<key>mainWindowFrame</key>
-	<string>43 105 1640 928 0 0 1920 1055 </string>
+	<string>6 82 1640 928 0 0 1680 1025 </string>
 	<key>supportingDocumentEditor.dockedQRTextSettings</key>
 	<dict>
 		<key>textScaleFactor</key>

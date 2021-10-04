@@ -26,3 +26,10 @@ wait $pid1
 wait $pid2
 wait $pid3
 ```
+
+`async function` means `forkable`
+`await ...` means fork and wait for child
+app runs in thread0, forking a child means to create another thread
+`return` from async function returns value when async activity finishes
+return on thread0 means function return, return from child thread1 means to return when async activity finishes.
+caller must modify how it calls function, e.g. by using await

@@ -13,6 +13,13 @@
         <Document ID="EFB4C36C-E332-4BBC-BA45-A107B23D1C53">
             <Title>Indirection</Title>
         </Document>
+        <Document ID="6DA5E421-7D26-4CC7-A044-AD912F125075">
+            <Title>How To Do This With Today's Technology</Title>
+            <Synopsis>- use these principles without waiting for language support (needs discipline)
+- Assembler programmers employed Structured Programming before it appeared in programming languages
+- use closures instead of threads
+- build apps using UNIX command-line commands as Components (measure if the app needs to optimized LATER)</Synopsis>
+        </Document>
         <Document ID="DE78F771-A9E7-4FDB-9F6C-EB374616B35D">
             <Title>Desktop vs. Mobile</Title>
         </Document>
@@ -21,6 +28,9 @@
         </Document>
         <Document ID="FDFC8816-D9AC-4EED-846E-0469C39292C9">
             <Title>Patterns</Title>
+            <Synopsis>- current rage in FP circles
+- well understood under the name of Parsing (compiler technology)
+- see also Ohm-JS, PEG</Synopsis>
         </Document>
         <Document ID="020FB417-1239-4C43-A75D-C92116626674">
             <Title>Overview</Title>
@@ -55,7 +65,7 @@ We resort to things that we call:
 
 Programming languages are merely syntactic sugar for the above.
 
-Can we create a toolbox of paradigms, then drape syntactic sugar over them?  
+Can we create a toolbox of paradigms, then drape syntactic sugar over the paradigms?  
 
 Yes.
 </Text>
@@ -64,19 +74,26 @@ Yes.
         <Document ID="81E96C61-9141-4675-9B12-EAD34E0BAE9D">
             <Title>Refactoring Architecture</Title>
         </Document>
+        <Document ID="7E61DAD4-142F-4BAB-AA7B-4DFB20755324">
+            <Title>Toolbox</Title>
+            <Synopsis>- Common Lisp
+- Javascript
+- Python</Synopsis>
+        </Document>
         <Document ID="3A61119C-9815-48AF-976E-5FD410EB3840">
             <Title>Raspberry PIs</Title>
             <Synopsis>- etc. - cheap distributed computing w/o the need for timesharing and memory sharing</Synopsis>
         </Document>
         <Document ID="4838A96A-6708-4491-8809-7151CDB07E1F">
-            <Title>OO - Case on Type</Title>
+            <Title>OO</Title>
+            <Synopsis>- case on type</Synopsis>
         </Document>
         <Document ID="8D31DB82-0CCB-4C81-8912-273466F8A5D2">
             <Title>Premature Rigor</Title>
             <Synopsis>- math notation requires throwing away useful bits (mutability, state)</Synopsis>
         </Document>
-        <Document ID="3B7CD9A0-CC1F-4CEF-BFF3-70A59B19B417">
-            <Title>Avoiding Concurrency</Title>
+        <Document ID="C9C16404-1E7E-454A-8A6F-18143863A88A">
+            <Title>SWIPL</Title>
         </Document>
         <Document ID="EFD3DEDD-4CB9-40E2-8982-8D3114DCA408">
             <Title>Programming Languages</Title>
@@ -91,6 +108,9 @@ Yes.
         <Document ID="45BE6421-6701-4F97-BB1A-1BB557EF939A">
             <Title>Business ORG Charts</Title>
             <Synopsis>- https://guitarvydas.github.io/2021/09/21/ORG-Chart-Takeaways.html</Synopsis>
+        </Document>
+        <Document ID="9CAB9949-B8E6-49B0-806B-BFC74667C4CA">
+            <Title>Include</Title>
         </Document>
         <Document ID="32EC4E40-5BC3-4987-A760-815F8A4C2D0C">
             <Title>Scalability</Title>
@@ -107,12 +127,17 @@ Yes.
 
 </Text>
         </Document>
-        <Document ID="E4FE73BB-3A87-4C89-9754-F8E8D56DE310">
-            <Title>Computers Are Asynchronous</Title>
+        <Document ID="31C9093F-EB54-40B5-83BF-E7E6B8FE290B">
+            <Title>RTL</Title>
+            <Synopsis>- Peepholer technology (portability)
+- used by GCC</Synopsis>
         </Document>
         <Document ID="55FBA2C9-5C8E-47FD-9389-C45E92599F97">
-            <Title>Like</Title>
-            <Synopsis>- like that, except - automated DRY</Synopsis>
+            <Title>Like (Same As, Except)</Title>
+            <Synopsis>- same as that, except - automated DRY</Synopsis>
+        </Document>
+        <Document ID="E4FE73BB-3A87-4C89-9754-F8E8D56DE310">
+            <Title>Computers Are Asynchronous</Title>
         </Document>
         <Document ID="3FE683CA-EE1B-4F03-B189-307EC8FE4425">
             <Title>Thread Safety</Title>
@@ -132,14 +157,11 @@ Yes.
             <Title>Separation of Concerns</Title>
             <Synopsis>- global variables —&gt; scoping - PROLOG engine —&gt; query syntax vs. engine</Synopsis>
         </Document>
-        <Document ID="A7FF8DE5-1FA5-474D-B8D7-D0C88C1128B2">
-            <Title>One Programming Language to Rule Them All</Title>
+        <Document ID="0313B25F-1839-4EEC-BCAE-498BAB823D61">
+            <Title>Networking in the Small</Title>
         </Document>
         <Document ID="D0A6E8A9-0A52-44AA-8B82-A1BAE209FDED">
             <Title>Relative References</Title>
-        </Document>
-        <Document ID="0313B25F-1839-4EEC-BCAE-498BAB823D61">
-            <Title>Networking in the Small</Title>
         </Document>
         <Document ID="4CD00173-7F80-47D1-A4F5-357A5DBC31BA">
             <Title>Worlds</Title>
@@ -167,8 +189,18 @@ Yes.
         <Document ID="F2E5B57E-2EF8-4BEE-86B3-AB7FFE2194C4">
             <Title>Dynamic vs. Static Types</Title>
         </Document>
+        <Document ID="009D42A8-ABF8-4958-A807-39D0640E7CDE">
+            <Title>OCG</Title>
+            <Synopsis>- declarative tree walker 
+- produces portable code</Synopsis>
+        </Document>
         <Document ID="77D6F007-E404-4470-B111-11736A93512C">
             <Title>Memory Sharing</Title>
+        </Document>
+        <Document ID="C9D80D23-22D2-4277-8C79-18A9DF464FC7">
+            <Title>Other Technologies - To Be Considered</Title>
+            <Synopsis>- Peephole Technology (portable)
+- used by gcc</Synopsis>
         </Document>
         <Document ID="CDCF7BEE-97DD-4C35-AED0-9AB37859C0F7">
             <Title>Expanding Variables</Title>
@@ -188,6 +220,8 @@ Yes.
         </Document>
         <Document ID="3C9C1CA0-96B8-4CBD-9ED4-03396E618C64">
             <Title>Ackley MFM</Title>
+            <Synopsis>- hierarchy
+- no component has an absolute address (name)</Synopsis>
         </Document>
         <Document ID="DC4AA80F-273A-474C-97B8-3FB4E4264644">
             <Title>Essential Complexity</Title>
@@ -201,6 +235,9 @@ Problems can be made to seem more complex by choosing poor notations for describ
         </Document>
         <Document ID="C2D0A39A-F36E-48A3-8413-FBFE554B2435">
             <Title>DRY</Title>
+            <Synopsis>- Don't Repeat Yourself
+- should be done automatically not manually (extend usages of "diff" and "git")
+- see also NiCAD</Synopsis>
         </Document>
         <Document ID="DBC3CE3E-EDD3-430F-ABFD-1085936B3C77">
             <Title>Music Notation</Title>
@@ -212,9 +249,6 @@ Problems can be made to seem more complex by choosing poor notations for describ
         <Document ID="5E03FFAC-865D-437D-8FA7-0633435877D3">
             <Title>Framing Software Reuse</Title>
             <Synopsis>multiple use vs. reuse</Synopsis>
-        </Document>
-        <Document ID="854C5D2C-CEEE-46BC-B585-09CD2EA1A28E">
-            <Title>Computers Are Functions</Title>
         </Document>
         <Document ID="880A891F-2AF8-48E0-B362-ABB2C1380B0C">
             <Title>Mathematical Notation</Title>
@@ -260,6 +294,9 @@ Problems can be made to seem more complex by choosing poor notations for describ
         <Document ID="B84AEADC-7618-4D25-9D29-519091643E17">
             <Title>Toolbox</Title>
         </Document>
+        <Document ID="EA17B990-92D8-4369-A048-6DFB5C23DDA9">
+            <Title>Ohm-JS</Title>
+        </Document>
         <Document ID="A72D4A1D-5B91-4EA8-8499-6A5F7EDE17AD">
             <Title>Measurement of LOC</Title>
         </Document>
@@ -268,6 +305,9 @@ Problems can be made to seem more complex by choosing poor notations for describ
         </Document>
         <Document ID="885146A6-C54D-4369-88E1-348073A2DD61">
             <Title>Parameter Counting</Title>
+            <Synopsis>- easy and a good idea
+- count parameters in a function definition
+- check that all references to the function have exactly the right number of parameters</Synopsis>
         </Document>
         <Document ID="5ED528D7-3190-4E4C-9EE5-BDBA3059C56C">
             <Title>Compile Time vs. Run Time</Title>
@@ -294,10 +334,16 @@ Happy Path culture.</Text>
         </Document>
         <Document ID="CDCEDF87-5BEC-4CA0-BD13-5F34B88F8D80">
             <Title>Decisions</Title>
-            <Synopsis>control flow</Synopsis>
+            <Synopsis>- control flow
+- if then else end if
+- switch case … end switch
+- see also Drakon for separation of concerns - control flow separated from data definition
+- see also StateCharts (State is OK, if tamed)</Synopsis>
         </Document>
         <Document ID="4FD0B9E6-AA64-45EE-BC19-50B6CB515CCD">
             <Title>DLLs</Title>
+            <Synopsis>- HTTP servers are DLLs
+- Why don't we use them as DLLs? Callback and CPS notation is too clunky.</Synopsis>
         </Document>
         <Document ID="75F38EDC-40F9-4C42-B228-39B69B38234E">
             <Title>Scoping</Title>
@@ -317,6 +363,7 @@ Happy Path culture.</Text>
         </Document>
         <Document ID="0EB597CF-663C-4AFF-BD43-723C35263895">
             <Title>Macros</Title>
+            <Synopsis>- programs that write programs</Synopsis>
         </Document>
         <Document ID="DAB1FF03-0630-4E04-9358-0FD4AAE7FEEC">
             <Title>Computers Are Machines</Title>
@@ -331,6 +378,8 @@ Happy Path culture.</Text>
         </Document>
         <Document ID="6278E598-5061-4B90-8636-6B2512A909DB">
             <Title>Type Checking</Title>
+            <Synopsis>- type checking is "good to have"
+- currently, type checking is still hard (unlike, say, "end if" syntax checking)</Synopsis>
         </Document>
         <Document ID="7DFD446B-29B7-460F-A916-6775FAA898D9">
             <Title>Operating Systems</Title>
@@ -339,6 +388,12 @@ Happy Path culture.</Text>
         <Document ID="B7868BA8-693B-4A22-8EC7-AF72FB28461B">
             <Title>The Programming Environment</Title>
             <Synopsis>- formerly known as the IDE</Synopsis>
+        </Document>
+        <Document ID="0F709A55-103B-4F76-B07C-339941A83903">
+            <Title>DLLs</Title>
+            <Synopsis>- separate modules
+- indirection
+- servers</Synopsis>
         </Document>
         <Document ID="EE041F8B-5D6A-405E-8AD4-F6563FEED5DD">
             <Title>Debugging</Title>
@@ -352,8 +407,9 @@ Happy Path culture.</Text>
         </Document>
         <Document ID="9BD3E24A-99E4-4274-B4B6-E1F95E0C4A4C">
             <Title>Overview of PE</Title>
-            <Text>The ultimate goal is to produce a programming environment that
+            <Text>The goal is to produce a PE (programming environment) that
 	•	supports transpiling diagrams to code
+	•	supports transpiling text to code
 	•	support multiple notations, e.g. a grammar specification and a rewrite specification for every notation
 	•	concurrency as the default
 	•	macros (same as "mutiple notations" above)
@@ -368,18 +424,24 @@ Happy Path culture.</Text>
         </Document>
         <Document ID="69F6E219-A99E-4698-9982-54C4FBA8DDD1">
             <Title>REPLs</Title>
+            <Synopsis>- debuggability</Synopsis>
         </Document>
         <Document ID="9E41F38A-F271-4FD3-AE9F-B83FA9684BB6">
             <Title>Syntax Checking</Title>
+            <Synopsis>- "end if" is easy and a good idea (use "end …" instead of a single character like "}" or ")")</Synopsis>
         </Document>
         <Document ID="9A57F8F5-0F15-4CC7-AC67-B1C623E31B3A">
             <Title>Detrimental Ideas</Title>
             <Text>Several ideas hurt computing progress:
-	•	computers are functions
-	•	there is one programming language to "rule them all"
-	•	concurrency must be avoided.
+	•	computers are functions (detrimental idea)
+	•	there is one programming language to "rule them all" (detrimental idea)
+	•	concurrency must be avoided (detrimental idea)
 
 </Text>
+        </Document>
+        <Document ID="4C1EEF53-C615-4CCD-B7F2-1F65D913E887">
+            <Title>ASON</Title>
+            <Synopsis>- https://altscript.com</Synopsis>
         </Document>
         <Document ID="2B067906-5333-4D4A-BA4C-E18BAF453D59">
             <Title>Interpreters vs. Compilers</Title>
