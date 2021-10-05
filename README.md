@@ -9,18 +9,30 @@ In this week-long jam (the Wheel Reinvention Jam), I accomplished a lot of what 
 I argue that we should deprecate the notion of GPLs and OSs and free our minds to think of bigger and better ways to control computers.
 
 # Wrapup
-- <u>General</u>
+
+This project consisted of two main portions
+
+1. work on concrete tools
+2. exploration
+   1. resulted in five .PNG files, listing various issues
+   2. resulted in seven essays (blogs) regarding various issues and revelations regarding deprecation of GPLs and OSs.
+
+most important ==> call-return spaghetti, understanding that concurrency is much easier than current implementations of multitasking ; revelations flow from this understanding ; seeing GPLs in a different light flows from this understanding
+
+Summary (see below for details):
+
+- <u>General Exploration</u>
     Overview
 	List Programming The Good Parts
     List Programming The Bad Parts
 	Other Technologies
 	New Perspectives
 	
-- <u>Concrete</u>
+- <u>Concrete</u> Results
     *Code*
-         PFR
+         PFR (work on command line tool to supersede GREP (unfinished))
     	 code related to "CALL RETURN Spaghetti", in JS, in CL, in Python
-    ​     PE - Architecture Diagram
+    ​     PE - Architecture Diagram of proposed Programming Environment to supersede GPLs and OSs (unfinished)
 
     *Essays*
         Free Your Mind
