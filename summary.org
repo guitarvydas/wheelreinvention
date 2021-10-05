@@ -1,0 +1,14 @@
+* start with a model of computing
+* model
+** two cpus connected by a wire
+*** convert wire to 2 one-way wires
+* DLLS
+* compilers   
+* debuggers
+* classes
+* types
+* locality-of-reference
+* start small
+** rewrite grep as RF and PF
+** rewrite sed as RFR and PFR
+** call return spaghetti   
